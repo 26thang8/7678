@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu
+{
+    width: 100%;
+    background-color: #183544;
+    position: fixed;
+    top: 0px;
+    z-index: 100px;
+    overflow: hidden;
+    
+}
+.menu .menutop
+{
+    height: 30px;
+    background-color: #765954;
+}
+.menu .menumid
+{
+    height: 70px;
+    background: #183544;
+    border-bottom: 1px black solid;
+}
+.menu .menumid img
+{
+    height: 50px;
+    padding: 15px;
+}
+.menu .menubottom
+{
+    background-color: pink;
+    height: 35px;
+}
+.noidung
+{
+    width: 400px;
+    padding: 150px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: #414141;
+}
+.truotlen
+{
+    transform: translateX(-300px);
+    opacity: 0;
+}
+.bienhinh .menutop
+{
+    height: 0px;
+    overflow: hidden;
+}
